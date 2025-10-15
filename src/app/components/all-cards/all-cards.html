@@ -1,0 +1,30 @@
+<app-search-bar (searchButtonClicked)="incrementCount()" [(search)]="search"></app-search-bar>
+Search : {{search}}
+<br>
+Click count : {{count}}
+<br>
+{{ (pokemons | filterItems:search).length==0 ? "Pas de pokemon " : "Nombre de pokemon : " + (pokemons |
+filterItems:search)?.length }}
+
+<br>
+
+<button (click)="openAddModal()" class="btn">Créer un pokemon</button>
+
+<app-form *ngIf="showAddModal" (create)="onCreated($event)" (cancel)="showAddModal=false"></app-form>
+
+<button (click)="toggleSortOrder()" class="btn">
+    Trier par numéro {{ isAscending ? '⬆' : '⬇' }}
+</button>
+
+<button (click)="addPokemon()"  class="btn">Ajouter un pokemon générique  </button>
+<div class="card-container">
+     @if((pokemons | filterItems:search).length==0) {
+        <p>Aucun Pokémon trouvé</p>
+     }
+     @else {
+
+         <app-playing-card *ngFor="let p of pokemons | filterItems:search" [pokemon]="p"></app-playing-card>
+     }
+
+
+</div>

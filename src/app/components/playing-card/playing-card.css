@@ -1,0 +1,151 @@
+.card{
+    display: block;
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    background-color: #d1d1d1;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px) rotateY(10deg);
+  box-shadow: 0 16px 32px rgba(0,0,0,0.4);
+}
+
+#inside{
+    border-radius: 4px;
+    padding: 5px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+}
+
+header{
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+header .left, header .right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    
+}   
+
+#art{
+    margin: 0;
+    padding: 5px 5px 0 5px;
+    background-color: lightgrey;
+    border-radius: 4px;
+}
+
+.pokemon{
+    height: 225px;
+    width: 100%;
+    object-fit: cover;
+}
+
+figcaption{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+#capacites{
+    display: flex;
+    flex-direction: column;
+  
+    height: 100px;
+}
+
+.capacity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.capacity .main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.capacity .name{
+    flex-grow: 1;
+}
+
+.capacity .cost{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.description{
+    font-size: 12px;
+    margin: 8px;
+
+}   
+
+.water{
+     background-color: #72afff;
+}
+
+.electricite{
+    background-color: #ffeb66;
+}
+
+.fire{
+    background-color: #ff9c54;
+}
+
+.plante{
+    background-color: #8cd674;
+}
+
+.fee{
+    background-color: #ff71ecd0;
+}
+
+.psy{
+    background-color: #ab62ffd8;
+}
+
+.normal{
+    background-color: #e9e9e9;
+}
+
+.dragon{
+    background-color: #ddae12;
+}
+
+.combat{
+    background-color: #d16500ce;
+}
+
+.metal{
+    background-color: #a3a3a3;
+}
+
+.obscure{
+    background-color: #000000d5;
+    color: white;
+}

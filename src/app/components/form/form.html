@@ -1,0 +1,54 @@
+<div class="modal-backdrop">
+    <div class="modal">
+        <h3>Ajouter un Pokémon</h3>
+        <form #f="ngForm" (ngSubmit)="submit(f.valid===true)">
+            <label>Nom *
+                <input name="name" required [(ngModel)]="model.name" />
+            </label>
+
+            <label>HP *
+                <input name="hp" type="number" required [(ngModel)]="model.hp" />
+            </label>
+
+            <label>Type d'énergie *
+<br>
+                <select name="energyType" required [(ngModel)]="model.energyType">
+                    <option value="" disabled selected>Choisis un type</option>
+                    <option *ngFor="let type of energyTypes" [value]="type.value">
+                        {{ type.label }}
+                    </option>
+                </select>
+            </label>
+
+            <label>Image
+                <input name="img" [(ngModel)]="model.img" placeholder="URL" />
+            </label>
+
+            <label>Attaque 1
+                <input name="attackName" [(ngModel)]="model.attackName" />
+            </label>
+
+            <label>Force 1
+                <input name="attackStrength" type="number" [(ngModel)]="model.attackStrength" />
+            </label>
+            <label>Description 1
+                <input name="attackStrength" [(ngModel)]="model.attackDescription" />
+            </label>
+
+            <label>Attaque 2
+                <input name="attackName" [(ngModel)]="model.attackName2" />
+            </label>
+            <label>Force 2
+                <input name="attackStrength" type="number" [(ngModel)]="model.attackStrength2" />
+            </label>
+            <label>Description 2
+                <input name="attackStrength" [(ngModel)]="model.attackDescription2" />
+            </label>
+
+            <div class="modal-actions">
+                <button type="submit" [disabled]="f.invalid" class="btn">Créer</button>
+                <button type="button" (click)="close()" class="btn">Annuler</button>
+            </div>
+        </form>
+    </div>
+</div>
