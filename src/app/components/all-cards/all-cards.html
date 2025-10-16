@@ -23,7 +23,7 @@ filterItems:search)?.length }}
      }
      @else {
 
-         <app-playing-card *ngFor="let p of pokemons | filterItems:search" [pokemon]="p"></app-playing-card>
+         <app-playing-card *ngFor="let p of pokemons | filterItems:search" [pokemon]="p" (click)="navigate(p)"></app-playing-card>
      }
 
 

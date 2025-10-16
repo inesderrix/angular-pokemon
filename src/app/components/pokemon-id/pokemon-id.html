@@ -1,0 +1,11 @@
+@if (pokemon()){
+    <div>
+        <button (click)="back()" class="btn">Retour</button>
+        <button (click)="next()" class="btn">Next</button>
+        <p> Pokemon numéro {{pokemon()?.id}} !</p>
+        
+        <app-playing-card [pokemon]="pokemon()!"></app-playing-card>
+    </div>
+} @else {
+    <p>New pokemon</p>
+}

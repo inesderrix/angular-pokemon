@@ -5,686 +5,1100 @@
             "name": "Bulbizarre",
             "hp": 80,
             "figureCaption": "N°001",
-            "attackName": "Fouet Lianes",
-            "attackStrength": 30,
-            "attackDescription": "Frappe l’adversaire avec des lianes robustes.",
-            "attackName2": "Canon Graine",
-            "attackStrength2": 60,
-            "attackDescription2": "Projette une graine puissante.",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/001.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/001.png",
+            "attacks": [
+                {
+                    "name": "Fouet Lianes",
+                    "strength": 30,
+                    "description": "Frappe l’adversaire avec des lianes robustes.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Canon Graine",
+                    "strength": 60,
+                    "description": "Projette une graine puissante.",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 2,
             "name": "Herbizarre",
             "hp": 100,
             "figureCaption": "N°002",
-            "attackName": "Tranch'Herbe",
-            "attackStrength": 40,
-            "attackDescription": "Une lame de fireilles tranchantes qui blesse l’ennemi.",
-            "attackName2": "Canon Graine",
-            "attackStrength2": 80,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/002.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/002.png",
+            "attacks": [
+                {
+                    "name": "Tranch'Herbe",
+                    "strength": 40,
+                    "description": "Une lame de fireilles tranchantes qui blesse l’ennemi.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Canon Graine",
+                    "strength": 80,
+                    "description": "Projette une graine puissante.",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 3,
             "name": "Florizarre",
             "hp": 140,
             "figureCaption": "N°003",
-            "attackName": "Lance-Soleil",
-            "attackStrength": 120,
-            "attackDescription": "Accumule la lumière du soleil et la libère en un rayon dévastateur.",
-            "attackName2": "Poudre Dodo",
-            "attackStrength2":10,
-            "attackDescription2": "Endort l’adversaire.",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/003.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/003.png",
+            "attacks": [
+                {
+                    "name": "Lance-Soleil",
+                    "strength": 120,
+                    "description": "Accumule la lumière du soleil et la libère en un rayon dévastateur.",
+                    "energyCount": 3
+                },
+                {
+                    "name": "Poudre Dodo",
+                    "strength": 10,
+                    "description": "Endort l’adversaire.",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 4,
             "name": "Salamèche",
             "hp": 60,
             "figureCaption": "N°004",
-            "attackName": "Griffe",
-            "attackStrength": 30,
-            "attackDescription": "Griffe l’adversaire avec des griffes acérées.",
-            "attackName2": "Flammèche",
-            "attackStrength2": 40,
-            "attackDescription2": "Projette une petite flamme sur l’ennemi.",
             "energyType": "fire",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/004.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/004.png",
+            "attacks": [
+                {
+                    "name": "Griffe",
+                    "strength": 30,
+                    "description": "Griffe l’adversaire avec des griffes acérées.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Flammèche",
+                    "strength": 40,
+                    "description": "Projette une petite flamme sur l’ennemi.",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 5,
             "name": "Reptincel",
             "hp": 90,
             "figureCaption": "N°005",
-            "attackName": "Flammèche",
-            "attackStrength": 50,
-            "attackDescription": "Crache des flammes pour brûler l’ennemi.",
-            "attackName2": "Embrasement",
-            "attackStrength2": 80,
-            "attackDescription2": "",
             "energyType": "fire",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/005.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/005.png",
+            "attacks": [
+                {
+                    "name": "Flammèche",
+                    "strength": 50,
+                    "description": "Crache des flammes pour brûler l’ennemi.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Embrasement",
+                    "strength": 80,
+                    "description": "Projette des flammes plus puissantes.",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 6,
             "name": "Dracaufeu",
             "hp": 200,
             "figureCaption": "N°006",
-            "attackName": "Lance-Flammes",
-            "attackStrength": 110,
-            "attackDescription": "Déverse un intense flot de flammes.",
-            "attackName2": "Vol",
-            "attackStrength2": 80,
-            "attackDescription2": "S’envole puis attaque en piqué.",
             "energyType": "fire",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/006.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/006.png",
+            "attacks": [
+                {
+                    "name": "Lance-Flammes",
+                    "strength": 110,
+                    "description": "Déverse un intense flot de flammes.",
+                    "energyCount": 3
+                },
+                {
+                    "name": "Vol",
+                    "strength": 80,
+                    "description": "S’envole puis attaque en piqué.",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 7,
             "name": "Carapuce",
             "hp": 70,
             "figureCaption": "N°007",
-            "attackName": "Pistolet à O",
-            "attackStrength": 40,
-            "attackDescription": "Projette un jet d’eau sur l’adversaire.",
-            "attackName2": "Éclaboussure",
-            "attackStrength2": 20,
-            "attackDescription2": "",
             "energyType": "water",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/007.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/007.png",
+            "attacks": [
+                {
+                    "name": "Pistolet à O",
+                    "strength": 40,
+                    "description": "Projette un jet d’eau sur l’adversaire.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Éclaboussure",
+                    "strength": 20,
+                    "description": "Petite attaque d’eau.",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 8,
             "name": "Carabaffe",
             "hp": 100,
             "figureCaption": "N°008",
-            "attackName": "Hydrocanon",
-            "attackStrength": 90,
-            "attackDescription": "Crache un puissant jet d’eau concentré.",
-            "attackName2": "Tornade Aquatique",
-            "attackStrength2": 70,
-            "attackDescription2": "",
             "energyType": "water",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/008.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/008.png",
+            "attacks": [
+                {
+                    "name": "Hydrocanon",
+                    "strength": 90,
+                    "description": "Crache un puissant jet d’eau concentré.",
+                    "energyCount": 3
+                },
+                {
+                    "name": "Tornade Aquatique",
+                    "strength": 70,
+                    "description": "Tourbillon d’eau.",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 9,
             "name": "Tortank",
             "hp": 180,
             "figureCaption": "N°009",
-            "attackName": "Hydroblast",
-            "attackStrength": 130,
-            "attackDescription": "Lance une explosion d’eau à haute pression.",
-            "attackName2": "Surf",
-            "attackStrength2": 100,
-            "attackDescription2": "",
             "energyType": "water",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/009.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/009.png",
+            "attacks": [
+                {
+                    "name": "Hydroblast",
+                    "strength": 130,
+                    "description": "Lance une explosion d’eau à haute pression.",
+                    "energyCount": 3
+                },
+                {
+                    "name": "Surf",
+                    "strength": 100,
+                    "description": "Attaque massive d’eau.",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 10,
             "name": "Chenipan",
             "hp": 50,
             "figureCaption": "N°010",
-            "attackName": "Charge",
-            "attackStrength": 10,
-            "attackDescription": "Fonctionne comme une attaque rapide et basique.",
-            "attackName2": "Picpic",
-            "attackStrength2": 20,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/010.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/010.png",
+            "attacks": [
+                {
+                    "name": "Charge",
+                    "strength": 10,
+                    "description": "Attaque rapide et basique.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Picpic",
+                    "strength": 20,
+                    "description": "Petit coup de tête.",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 11,
             "name": "Chrysacier",
-            "hp": 60,
+            "hp": 50,
             "figureCaption": "N°011",
-            "attackName": "Armure",
-            "attackStrength": 10,
-            "attackDescription": "Se protège en durcissant sa carapace.",
-            "attackName2": "Tacle",
-            "attackStrength2": 20,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/011.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/011.png",
+            "attacks": [
+                {
+                    "name": "Armure",
+                    "strength": 10,
+                    "description": "Se protège en durcissant sa carapace.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Tacle",
+                    "strength": 20,
+                    "description": "",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 12,
             "name": "Papilusion",
             "hp": 120,
             "figureCaption": "N°012",
-            "attackName": "Poudre Dodo",
-            "attackStrength": 10,
-            "attackDescription": "Libère une poudre soporifique pour endormir l’ennemi.",
-            "attackName2": "Demi-Tour",
-            "attackStrength2": 50,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/012.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/012.png",
+            "attacks": [
+                {
+                    "name": "Poudre Dodo",
+                    "strength": 10,
+                    "description": "Libère une poudre soporifique pour endormir l’ennemi.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Demi-Tour",
+                    "strength": 50,
+                    "description": "",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 13,
             "name": "Aspicot",
-            "hp": 50,
+            "hp": 40,
             "figureCaption": "N°013",
-            "attackName": "Dard Venin",
-            "attackStrength": 20,
-            "attackDescription": "Pique l’ennemi en injectant du poison.",
-            "attackName2": "Piège de Venin",
-            "attackStrength2": 10,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/013.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/013.png",
+            "attacks": [
+                {
+                    "name": "Dard Venin",
+                    "strength": 20,
+                    "description": "Pique l’ennemi en injectant du poison.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Piège de Venin",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 14,
             "name": "Coconfort",
             "hp": 60,
             "figureCaption": "N°014",
-            "attackName": "Enroulement",
-            "attackStrength": 10,
-            "attackDescription": "Se protège en s’enroulant.",
-            "attackName2": "Tir de Sable",
-            "attackStrength2": 10,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/014.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/014.png",
+            "attacks": [
+                {
+                    "name": "Enroulement",
+                    "strength": 10,
+                    "description": "Se protège en s’enroulant.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Tir de Sable",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 15,
             "name": "Dardargnan",
-            "hp": 110,
+            "hp": 100,
             "figureCaption": "N°015",
-            "attackName": "Piqûre",
-            "attackStrength": 60,
-            "attackDescription": "Attaque perçante rapide et douloureuse.",
-            "attackName2": "Dard-Nuée",
-            "attackStrength2": 80,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/015.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/015.png",
+            "attacks": [
+                {
+                    "name": "Piqûre",
+                    "strength": 60,
+                    "description": "Attaque perçante rapide et douloureuse.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Dard-Nuée",
+                    "strength": 80,
+                    "description": "",
+                    "energyCount": 3
+                }
+            ]
         },
         {
             "id": 16,
             "name": "Roucool",
             "hp": 60,
             "figureCaption": "N°016",
-            "attackName": "Picpic",
-            "attackStrength": 30,
-            "attackDescription": "Donne un coup de bec rapide.",
-            "attackName2": "Roue de fire",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "normal",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/016.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/016.png",
+            "attacks": [
+                {
+                    "name": "Picpic",
+                    "strength": 30,
+                    "description": "Donne un coup de bec rapide.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Roue de Feu",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 17,
             "name": "Roucoups",
             "hp": 90,
             "figureCaption": "N°017",
-            "attackName": "Aile d’Acier",
-            "attackStrength": 60,
-            "attackDescription": "Frappe l’ennemi avec des ailes puissantes.",
-            "attackName2": "Hurlement",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "normal",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/017.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/017.png",
+            "attacks": [
+                {
+                    "name": "Aile d’Acier",
+                    "strength": 60,
+                    "description": "Frappe l’ennemi avec des ailes puissantes.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Hurlement",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 18,
             "name": "Roucarnage",
             "hp": 140,
             "figureCaption": "N°018",
-            "attackName": "Cru-Aile",
-            "attackStrength": 100,
-            "attackDescription": "Un battement d’ailes extrêmement puissant.",
-            "attackName2": "Pic Swoop",
-            "attackStrength2": 80,
-            "attackDescription2": "",
             "energyType": "normal",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/018.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/018.png",
+            "attacks": [
+                {
+                    "name": "Cru-Aile",
+                    "strength": 100,
+                    "description": "Un battement d’ailes extrêmement puissant.",
+                    "energyCount": 3
+                },
+                {
+                    "name": "Pic Swoop",
+                    "strength": 80,
+                    "description": "",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 19,
             "name": "Rattata",
             "hp": 50,
             "figureCaption": "N°019",
-            "attackName": "Morsure",
-            "attackStrength": 20,
-            "attackDescription": "Mord l’adversaire pour infliger des dégâts.",
-            "attackName2": "Vive-Attaque",
-            "attackStrength2": 30,
-            "attackDescription2": "",
             "energyType": "normal",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/019.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/019.png",
+            "attacks": [
+                {
+                    "name": "Morsure",
+                    "strength": 20,
+                    "description": "Mord l’adversaire pour infliger des dégâts.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Vive-Attaque",
+                    "strength": 30,
+                    "description": "",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 20,
             "name": "Rattatac",
             "hp": 90,
             "figureCaption": "N°020",
-            "attackName": "Morsure",
-            "attackStrength": 50,
-            "attackDescription": "Morsure féroce pour infliger de lourds dégâts.",
-            "attackName2": "Crochetage",
-            "attackStrength2": 10,
-            "attackDescription2": "",
             "energyType": "normal",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/020.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/020.png",
+            "attacks": [
+                {
+                    "name": "Morsure",
+                    "strength": 50,
+                    "description": "Morsure féroce pour infliger de lourds dégâts.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Crochetage",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 21,
             "name": "Piafabec",
             "hp": 50,
             "figureCaption": "N°021",
-            "attackName": "Picpic",
-            "attackStrength": 20,
-            "attackDescription": "Coup de bec rapide ciblant l’adversaire.",
-            "attackName2": "Aile d’Acier",
-            "attackStrength2": 10,
-            "attackDescription2": "",
             "energyType": "normal",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/022.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/021.png",
+            "attacks": [
+                {
+                    "name": "Picpic",
+                    "strength": 20,
+                    "description": "Coup de bec rapide ciblant l’adversaire.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Aile d’Acier",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Rapasdepic",
+            "hp": 90,
+            "figureCaption": "N°022",
+            "energyType": "normal",
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/022.png",
+            "attacks": [
+                {
+                    "name": "Multivrille",
+                    "strength": 50,
+                    "description": "Coup de bec rapide ciblant l’adversaire.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Vent Dévastateur",
+                    "strength": 30,
+                    "description": "",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 23,
             "name": "Abo",
             "hp": 40,
             "figureCaption": "N°023",
-            "attackName": "Morsure",
-            "attackStrength": 20,
-            "attackDescription": "Morsure empoisonnante.",
-            "attackName2": "Toxik",
-            "attackStrength2": 10,
-            "attackDescription2": "",
             "energyType": "psy",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/023.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/023.png",
+            "attacks": [
+                {
+                    "name": "Morsure",
+                    "strength": 20,
+                    "description": "Morsure empoisonnante.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Toxik",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 24,
             "name": "Arbok",
             "hp": 120,
             "figureCaption": "N°024",
-            "attackName": "Étreinte",
-            "attackStrength": 60,
-            "attackDescription": "S’enroule autour de l’adversaire pour lui infliger des dégâts.",
-            "attackName2": "Venin",
-            "attackStrength2": 80,
-            "attackDescription2": "",
             "energyType": "psy",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/024.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/024.png",
+            "attacks": [
+                {
+                    "name": "Étreinte",
+                    "strength": 60,
+                    "description": "S’enroule autour de l’adversaire pour lui infliger des dégâts.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Venin",
+                    "strength": 80,
+                    "description": "",
+                    "energyCount": 3
+                }
+            ]
         },
         {
             "id": 25,
             "name": "Pikachu",
             "hp": 60,
             "figureCaption": "N°025",
-            "attackName": "Éclair",
-            "attackStrength": 40,
-            "attackDescription": "Libère une décharge électrique pour étourdir l’ennemi.",
-            "attackName2": "Queue de Fer",
-            "attackStrength2": 30,
-            "attackDescription2": "",
             "energyType": "electricite",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/025.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/025.png",
+            "attacks": [
+                {
+                    "name": "Éclair",
+                    "strength": 40,
+                    "description": "Libère une décharge électrique pour étourdir l’ennemi.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Queue de Fer",
+                    "strength": 30,
+                    "description": "",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 26,
             "name": "Raichu",
             "hp": 90,
             "figureCaption": "N°026",
-            "attackName": "Tonnerre",
-            "attackStrength": 80,
-            "attackDescription": "Déchaîne une forte attaque électrique.",
-            "attackName2": "Queue de Fer",
-            "attackStrength2": 20,
-            "attackDescription2": "",
             "energyType": "electricite",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/026.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/026.png",
+            "attacks": [
+                {
+                    "name": "Tonnerre",
+                    "strength": 80,
+                    "description": "Déchaîne une forte attaque électrique.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Queue de Fer",
+                    "strength": 20,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 27,
             "name": "Sabelette",
             "hp": 50,
             "figureCaption": "N°027",
-            "attackName": "Griffe",
-            "attackStrength": 20,
-            "attackDescription": "Griffe l’adversaire.",
-            "attackName2": "Tunnel",
-            "attackStrength2": 10,
-            "attackDescription2": "",
             "energyType": "combat",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/027.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/027.png",
+            "attacks": [
+                {
+                    "name": "Griffe",
+                    "strength": 20,
+                    "description": "Griffe l’adversaire.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Tunnel",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 28,
             "name": "Sablaireau",
             "hp": 100,
             "figureCaption": "N°028",
-            "attackName": "Tunnel",
-            "attackStrength": 70,
-            "attackDescription": "Creuse sous l’ennemi pour l’attaquer par surprise.",
-            "attackName2": "Mâchouille",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "combat",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/028.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/028.png",
+            "attacks": [
+                {
+                    "name": "Tunnel",
+                    "strength": 70,
+                    "description": "Creuse sous l’ennemi pour l’attaquer par surprise.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Mâchouille",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 29,
-            "name": "Nidoran",
+            "name": "Nidoran♀",
             "hp": 55,
             "figureCaption": "N°029",
-            "attackName": "Charge",
-            "attackStrength": 20,
-            "attackDescription": "Charge l’adversaire avec vigueur.",
-            "attackName2": "Coup Poison",
-            "attackStrength2": 30,
-            "attackDescription2": "",
             "energyType": "psy",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/029.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/029.png",
+            "attacks": [
+                {
+                    "name": "Charge",
+                    "strength": 20,
+                    "description": "Charge l’adversaire avec vigueur.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Coup Poison",
+                    "strength": 30,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 30,
             "name": "Nidorina",
             "hp": 85,
             "figureCaption": "N°030",
-            "attackName": "Morsure",
-            "attackStrength": 40,
-            "attackDescription": "Morsure venimeuse pour blesser l’adversaire.",
-            "attackName2": "Coup Poison",
-            "attackStrength2": 50,
-            "attackDescription2": "",
             "energyType": "psy",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/030.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/030.png",
+            "attacks": [
+                {
+                    "name": "Morsure",
+                    "strength": 40,
+                    "description": "Morsure venimeuse pour blesser l’adversaire.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Coup Poison",
+                    "strength": 50,
+                    "description": "",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 31,
             "name": "Nidoqueen",
             "hp": 160,
             "figureCaption": "N°031",
-            "attackName": "Séisme",
-            "attackStrength": 100,
-            "attackDescription": "Provoque un tremblement de terre pour infliger de lourds dégâts.",
-            "attackName2": "Coup de Corne",
-            "attackStrength2": 80,
-            "attackDescription2": "",
             "energyType": "psy",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/031.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/031.png",
+            "attacks": [
+                {
+                    "name": "Séisme",
+                    "strength": 100,
+                    "description": "Provoque un tremblement de terre pour infliger de lourds dégâts.",
+                    "energyCount": 3
+                },
+                {
+                    "name": "Coup de Corne",
+                    "strength": 80,
+                    "description": "",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 32,
             "name": "Nidoran♂",
             "hp": 55,
             "figureCaption": "N°032",
-            "attackName": "Piqûre",
-            "attackStrength": 20,
-            "attackDescription": "Pique rapidement l’ennemi.",
-            "attackName2": "Coup Poison",
-            "attackStrength2": 30,
-            "attackDescription2": "",
             "energyType": "psy",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/032.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/032.png",
+            "attacks": [
+                {
+                    "name": "Piqûre",
+                    "strength": 20,
+                    "description": "Pique rapidement l’ennemi.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Coup Poison",
+                    "strength": 30,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 33,
             "name": "Nidorino",
             "hp": 80,
             "figureCaption": "N°033",
-            "attackName": "Morsure",
-            "attackStrength": 40,
-            "attackDescription": "Morsure puissante.",
-            "attackName2": "Coup Poison",
-            "attackStrength2": 50,
-            "attackDescription2": "",
             "energyType": "psy",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/033.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/033.png",
+            "attacks": [
+                {
+                    "name": "Morsure",
+                    "strength": 40,
+                    "description": "Morsure puissante.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Coup Poison",
+                    "strength": 50,
+                    "description": "",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 34,
             "name": "Nidoking",
             "hp": 170,
             "figureCaption": "N°034",
-            "attackName": "Coup de Corne",
-            "attackStrength": 90,
-            "attackDescription": "Charge en utilisant ses cornes pour frapper fort.",
-            "attackName2": "Séisme",
-            "attackStrength2": 120,
-            "attackDescription2": "",
             "energyType": "psy",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/034.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/034.png",
+            "attacks": [
+                {
+                    "name": "Coup de Corne",
+                    "strength": 90,
+                    "description": "Charge en utilisant ses cornes pour frapper fort.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Séisme",
+                    "strength": 120,
+                    "description": "",
+                    "energyCount": 3
+                }
+            ]
         },
         {
             "id": 35,
             "name": "Mélofée",
             "hp": 90,
             "figureCaption": "N°035",
-            "attackName": "Pouvoir Lunaire",
-            "attackStrength": 60,
-            "attackDescription": "Canalise l’énergie lunaire pour frapper l’ennemi.",
-            "attackName2": "Métronome",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "fee",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/035.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/035.png",
+            "attacks": [
+                {
+                    "name": "Pouvoir Lunaire",
+                    "strength": 60,
+                    "description": "Canalise l’énergie lunaire pour frapper l’ennemi.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Métronome",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 36,
             "name": "Mélodelfe",
             "hp": 130,
             "figureCaption": "N°036",
-            "attackName": "Vibra Soin",
-            "attackStrength":10,
-            "attackDescription": "Utilise des ondes pour soigner les alliés.",
-            "attackName2": "Pouvoir Lunaire",
-            "attackStrength2": 90,
-            "attackDescription2": "",
             "energyType": "fee",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/036.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/036.png",
+            "attacks": [
+                {
+                    "name": "Vibra Soin",
+                    "strength": 10,
+                    "description": "Utilise des ondes pour soigner les alliés.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Pouvoir Lunaire",
+                    "strength": 90,
+                    "description": "",
+                    "energyCount": 3
+                }
+            ]
         },
         {
             "id": 37,
             "name": "Goupix",
             "hp": 60,
             "figureCaption": "N°037",
-            "attackName": "Flamme",
-            "attackStrength": 40,
-            "attackDescription": "Lance une petite flamme pour brûler l’adversaire.",
-            "attackName2": "fire Follet",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "fire",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/037.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/037.png",
+            "attacks": [
+                {
+                    "name": "Flamme",
+                    "strength": 40,
+                    "description": "Lance une petite flamme pour brûler l’ennemi.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Feu Follet",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 38,
-            "name": "firenard",
+            "name": "Feunard",
             "hp": 110,
             "figureCaption": "N°038",
-            "attackName": "fire d’Enfer",
-            "attackStrength": 90,
-            "attackDescription": "Projette une intense rafale de flammes.",
-            "attackName2": "Danse-Flamme",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "fire",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/038.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/038.png",
+            "attacks": [
+                {
+                    "name": "Feu d’Enfer",
+                    "strength": 90,
+                    "description": "Projette une intense rafale de flammes.",
+                    "energyCount": 3
+                },
+                {
+                    "name": "Danse-Flamme",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 39,
             "name": "Rondoudou",
             "hp": 60,
             "figureCaption": "N°039",
-            "attackName": "Berceuse",
-            "attackStrength":10,
-            "attackDescription": "Chante une berceuse pour endormir l’ennemi.",
-            "attackName2": "Gonflette",
-            "attackStrength2": 20,
-            "attackDescription2": "",
             "energyType": "fee",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/039.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/039.png",
+            "attacks": [
+                {
+                    "name": "Berceuse",
+                    "strength": 10,
+                    "description": "Chante une berceuse pour endormir l’ennemi.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Gonflette",
+                    "strength": 20,
+                    "description": "",
+                    "energyCount": 2
+                }
+            ]
         },
         {
             "id": 40,
             "name": "Grodoudou",
             "hp": 110,
             "figureCaption": "N°040",
-            "attackName": "Onde Folie",
-            "attackStrength": 60,
-            "attackDescription": "Envoie une onde sonore déstabilisante.",
-            "attackName2": "Gonflette",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "fee",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/040.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/040.png",
+            "attacks": [
+                {
+                    "name": "Onde Folie",
+                    "strength": 60,
+                    "description": "Envoie une onde sonore déstabilisante.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Gonflette",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 41,
-            "name": "Nosférapti",
+            "name": "Nosferapti",
             "hp": 45,
             "figureCaption": "N°041",
-            "attackName": "Morsure",
-            "attackStrength": 20,
-            "attackDescription": "Morsure rapide et sournoise.",
-            "attackName2": "Sons Nocturnes",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "psy",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/041.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/041.png",
+            "attacks": [
+                {
+                    "name": "Morsure",
+                    "strength": 20,
+                    "description": "Morsure rapide et sournoise.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Sons Nocturnes",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 42,
-            "name": "Nosféralto",
+            "name": "Nosferalto",
             "hp": 110,
             "figureCaption": "N°042",
-            "attackName": "Draco Vent",
-            "attackStrength": 70,
-            "attackDescription": "Utilise ses ailes pour infliger un coup puissant.",
-            "attackName2": "Hélice",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "psy",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/042.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/042.png",
+            "attacks": [
+                {
+                    "name": "Draco Vent",
+                    "strength": 70,
+                    "description": "Utilise ses ailes pour infliger un coup puissant.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Hélice",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 43,
             "name": "Mystherbe",
             "hp": 60,
             "figureCaption": "N°043",
-            "attackName": "Vampigraine",
-            "attackStrength":10,
-            "attackDescription": "Siphonne l’énergie vitale de l’adversaire.",
-            "attackName2": "Poudre Toxik",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/043.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/043.png",
+            "attacks": [
+                {
+                    "name": "Vampigraine",
+                    "strength": 10,
+                    "description": "Siphonne l’énergie vitale de l’adversaire.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Poudre Toxik",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 44,
             "name": "Ortide",
             "hp": 80,
             "figureCaption": "N°044",
-            "attackName": "Tranch'Herbe",
-            "attackStrength": 40,
-            "attackDescription": "Des fireilles tranchantes pour blesser l’adversaire.",
-            "attackName2": "Mégafouet",
-            "attackStrength2": 80,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/044.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/044.png",
+            "attacks": [
+                {
+                    "name": "Tranch'Herbe",
+                    "strength": 40,
+                    "description": "Des feuilles tranchantes pour blesser l’adversaire.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Mégafouet",
+                    "strength": 80,
+                    "description": "",
+                    "energyCount": 3
+                }
+            ]
         },
         {
             "id": 45,
             "name": "Rafflesia",
             "hp": 140,
             "figureCaption": "N°045",
-            "attackName": "Pollen",
-            "attackStrength":10,
-            "attackDescription": "Projette du pollen qui affaiblit l’adversaire.",
-            "attackName2": "Canon Graine",
-            "attackStrength2": 90,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/045.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/045.png",
+            "attacks": [
+                {
+                    "name": "Pollen",
+                    "strength": 10,
+                    "description": "Projette du pollen qui affaiblit l’adversaire.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Canon Graine",
+                    "strength": 90,
+                    "description": "",
+                    "energyCount": 3
+                }
+            ]
         },
         {
             "id": 46,
             "name": "Paras",
             "hp": 60,
             "figureCaption": "N°046",
-            "attackName": "Griffe",
-            "attackStrength": 30,
-            "attackDescription": "Griffe l’ennemi avec force.",
-            "attackName2": "Spore",
-            "attackStrength2":10,
-            "attackDescription2": "Libère des spores pour endormir la cible.",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/046.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/046.png",
+            "attacks": [
+                {
+                    "name": "Griffe",
+                    "strength": 30,
+                    "description": "Griffe l’ennemi avec force.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Spore",
+                    "strength": 10,
+                    "description": "Libère des spores pour endormir la cible.",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 47,
             "name": "Parasect",
             "hp": 110,
             "figureCaption": "N°047",
-            "attackName": "Morsure",
-            "attackStrength": 60,
-            "attackDescription": "Morsure et attaque du fungus contrôlant.",
-            "attackName2": "Spore",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/047.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/047.png",
+            "attacks": [
+                {
+                    "name": "Morsure",
+                    "strength": 60,
+                    "description": "Morsure et attaque du fungus contrôlant.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Spore",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 48,
             "name": "Mimitoss",
             "hp": 60,
             "figureCaption": "N°048",
-            "attackName": "Piqûre",
-            "attackStrength": 20,
-            "attackDescription": "Pique rapidement l’adversaire.",
-            "attackName2": "Poudre Toxik",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/048.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/048.png",
+            "attacks": [
+                {
+                    "name": "Piqûre",
+                    "strength": 20,
+                    "description": "Pique rapidement l’adversaire.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Poudre Toxik",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 49,
             "name": "Aéromite",
             "hp": 110,
             "figureCaption": "N°049",
-            "attackName": "Vent Violent",
-            "attackStrength": 60,
-            "attackDescription": "Crée un vent puissant pour repousser l’ennemi.",
-            "attackName2": "Poudre Dodo",
-            "attackStrength2":10,
-            "attackDescription2": "",
             "energyType": "plante",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/049.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/049.png",
+            "attacks": [
+                {
+                    "name": "Vent Violent",
+                    "strength": 60,
+                    "description": "Crée un vent puissant pour repousser l’ennemi.",
+                    "energyCount": 2
+                },
+                {
+                    "name": "Poudre Dodo",
+                    "strength": 10,
+                    "description": "",
+                    "energyCount": 1
+                }
+            ]
         },
         {
             "id": 50,
             "name": "Taupiqueur",
             "hp": 70,
             "figureCaption": "N°050",
-            "attackName": "Fouille",
-            "attackStrength":10,
-            "attackDescription": "Fouille le sol pour trouver une ouverture.",
-            "attackName2": "Tunnel",
-            "attackStrength2": 40,
-            "attackDescription2": "",
             "energyType": "combat",
-            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/050.png"
+            "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/050.png",
+            "attacks": [
+                {
+                    "name": "Fouille",
+                    "strength": 10,
+                    "description": "Fouille le sol pour trouver une ouverture.",
+                    "energyCount": 1
+                },
+                {
+                    "name": "Tunnel",
+                    "strength": 40,
+                    "description": "",
+                    "energyCount": 2
+                }
+            ]
         }
     ]
 }

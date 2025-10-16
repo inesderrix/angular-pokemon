@@ -1,27 +1,24 @@
-// ...existing code...
+export interface Attack{
+  name:string;
+  strength:number;
+  description:string;
+  energyCount:number;
+}
 export interface Pokemon {
   id: number;
   name: string;
   hp: number;
   figureCaption: string;
-  attackName: string;
-  attackStrength: number;
-  attackDescription: string;
-  attackName2: string;
-  attackStrength2: number;
-  attackDescription2: string;
+  attacks: Attack[];
   energyType: string;
   img: string;
 }
 
-// fallback statique (garde si fetch échoue)
-export const DEFAULT_POKEMONS: Pokemon[] = [
-  // ...existing objects (copie de ton tableau actuel)...
-];
 
-// charge le JSON public (/api/pokemon.json) — retourne DEFAULT_POKEMONS en SSR ou en cas d'erreur
+export const DEFAULT_POKEMONS: Pokemon[] = [];
+
+
 export async function loadPokemonsFromJson(): Promise<Pokemon[]> {
-  // Guard SSR / environnements sans fetch/localStorage
   if (typeof window === 'undefined' || typeof fetch === 'undefined') {
     return DEFAULT_POKEMONS;
   }
@@ -37,4 +34,3 @@ export async function loadPokemonsFromJson(): Promise<Pokemon[]> {
     return DEFAULT_POKEMONS;
   }
 }
-// ...existing code...

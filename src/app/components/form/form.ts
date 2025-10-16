@@ -16,65 +16,39 @@ export class Form {
   @Output() cancel = new EventEmitter<void>();
 
   model: Partial<Pokemon> = {
-    id:0,
+    id: 0,
     name: '',
     hp: 0,
-    attackName: '',
-    attackStrength: 0,
-    attackDescription: '',
-    attackName2: '',
-    attackStrength2: 0,
-    attackDescription2: '',
+    attacks: [
+      { name: '', strength: 0, description: '', energyCount: 1 }
+    ],
     energyType: 'normal',
-    };
+  };
 
-  
-energyTypes = [
-  { value: 'normal', label: 'Normal' },
-  { value: 'plante', label: 'Plante' },
-  { value: 'fire', label: 'Feu' },
-  { value: 'water', label: 'Eau' },
-  { value: 'electricite', label: 'Électricité' },
-  { value: 'psy', label: 'Psy' },
-  { value: 'fee', label: 'Fée' },
-  { value: 'dragon', label: 'Dragon' },
-  { value: 'combat', label: 'Combat' },
-  { value: 'obscure', label: 'Obscurité' },
-  { value: 'metal', label: 'Métal' }
-];
+  addAttack() {
+    this.model.attacks?.push({ name: '', strength: 0, description: '', energyCount: 1 });
+  }
+
+  energyTypes = [
+    { value: 'normal', label: 'Normal' },
+    { value: 'plante', label: 'Plante' },
+    { value: 'fire', label: 'Feu' },
+    { value: 'water', label: 'Eau' },
+    { value: 'electricite', label: 'Électricité' },
+    { value: 'psy', label: 'Psy' },
+    { value: 'fee', label: 'Fée' },
+    { value: 'dragon', label: 'Dragon' },
+    { value: 'combat', label: 'Combat' },
+    { value: 'obscure', label: 'Obscurité' },
+    { value: 'metal', label: 'Métal' }
+  ];
 
 
   constructor(private pokemonService: PokemonName) { }
 
   submit(formValid: boolean) {
     if (!formValid || !this.model.name) return;
-    const list = this.pokemonService.getAll();
-    const maxId = list.length ? Math.max(...list.map(p => p.id || 0)) : 0;
-    let createId = (this.model.id && this.model.id > 0) ? this.model.id : (maxId + 1);
-    if (list.some(p => p.id === createId)) {
-      createId = maxId + 1;
-    }
-    const newId = createId;
-
-    
-    console.log(this.model.id)
-
-    const newPokemon: Pokemon = {
-      id: newId,
-      name: this.model.name || `Pokemon ${newId}`,
-      hp: this.model.hp ?? 50,
-      figureCaption: `N°${newId.toString().padStart(3, '0')}`,
-      attackName: this.model.attackName || '',
-      attackStrength: this.model.attackStrength ?? 0,
-      attackDescription: this.model.attackDescription || '',
-      attackName2: this.model.attackName2 || '',
-      attackStrength2: this.model.attackStrength2 ?? 0,
-      attackDescription2: this.model.attackDescription2 || '',
-      energyType: this.model.energyType || 'fire',
-       img: `https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/${newId.toString().padStart(3, '0')}.png`
-  
-    };
-    this.create.emit(newPokemon);
+    this.create.emit(this.model as Pokemon);
     this.reset();
   }
 
@@ -85,15 +59,13 @@ energyTypes = [
 
   reset() {
     this.model = {
-      id:0,
+      id: 0,
       name: '',
       hp: 50,
-      attackName: '',
-      attackStrength: 0,
-      attackDescription: '',
-      attackName2: '',
-      attackStrength2: 0,
-      attackDescription2: '',
+      attacks: [
+        { name: '', strength: 0, description: '', energyCount: 0 },
+        { name: '', strength: 0, description: '', energyCount: 0 }
+      ],
       energyType: 'normal'
     };
   }

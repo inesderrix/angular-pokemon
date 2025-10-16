@@ -62,6 +62,12 @@ export class PokemonName {
 
   }
 
+  getById(id:number):Pokemon | undefined{
+    this.load();
+    return this.pokemons.find(p=> p.id === id)
+
+  }
+
   updatePokemon(id: number, updatedPokemon: any) {
     const index = this.pokemons.findIndex(p => p.id === id);
     if (index !== -1) {

@@ -1,50 +1,39 @@
+<div id="card" class="card">
 
-    <div id="card" class="card">
-    
-        <div id="inside" class="{{pokemon.energyType}}">
-            <header>
-                <div class="left">
-                    <div id="name">
-                        {{pokemon.name}}
-                    </div>
-                </div>
-                <div class="right">
-                    <div id="hp">
-                        {{pokemon.hp}} PV
-                    </div>
-                    <img src="energy/{{pokemon.energyType}}.png" alt="energie eau" class="energy icon">
-
-                </div>
-            </header>
-            <figure id="art">
-                <img src="{{pokemon.img}}" alt="" class="pokemon">
-                <figcaption>{{pokemon.figureCaption}} - {{pokemon.name}} </figcaption>
-            </figure>
-            <div id="capacites">
-                <div class="capacity">
-                    <div class="main">
-                        <div class="cost">
-                            <img src="energy/{{pokemon.energyType}}.png" alt="energie eau" class="energy icon">
-                            <img src="energy/{{pokemon.energyType}}.png" alt="energie eau" class="energy icon">
-                        </div>
-                        <div class="name">{{pokemon.attackName}}</div>
-                        <div class="domage">{{pokemon.attackStrength}}</div>
-                    </div>
-                    <div class="description">
-                       {{pokemon.attackDescription}}
-                    </div>
-                    <div class="main">
-                        <div class="cost">
-                            <img src="energy/{{pokemon.energyType}}.png" alt="energie eau" class="energy icon">
-                        </div>
-                        <div class="name">{{pokemon.attackName2}}</div>
-                        <div class="domage">{{pokemon.attackStrength2}}</div>
-                    </div>
-                     <div class="description">
-                        {{pokemon.attackDescription2}}
-                    </div>
-                  
+    <div id="inside" class="{{pokemon.energyType}}">
+        <header>
+            <div class="left">
+                <div id="name">
+                    {{pokemon.name}}
                 </div>
             </div>
+            <div class="right">
+                <div id="hp">
+                    {{pokemon.hp}} PV
+                </div>
+                <img src="energy/{{pokemon.energyType}}.png" alt="energie eau" class="energy icon">
+
+            </div>
+        </header>
+        <figure id="art">
+            <img src="pokemon/paysage.jpg" alt="" class="paysage">
+            <img src="{{pokemon.img}}" alt="" class="pokemon">
+            <figcaption>{{pokemon.figureCaption}} - {{pokemon.name}} </figcaption>
+        </figure>
+        <div *ngFor="let attack of pokemon.attacks ?? []" class="capacity">
+            <div class="main">
+                <div class="cost">
+                    <img *ngFor="let e of [].constructor(attack.energyCount)" src="energy/{{pokemon.energyType}}.png"
+                        class="energy icon">
+                </div>
+
+                <div class="name">{{attack.name}}</div>
+                <div class="domage">{{attack.strength}}</div>
+            </div>
+            <div class="description">
+                {{attack.description}}
+            </div>
         </div>
+
     </div>
+</div>

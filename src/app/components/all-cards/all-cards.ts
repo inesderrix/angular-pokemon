@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { PlayingCard } from '../playing-card/playing-card';
 import { SearchBar } from '../search-bar/search-bar';
 import { CommonModule } from '@angular/common';
@@ -6,6 +6,7 @@ import { FilterItemsPipe } from './pipe';
 import { PokemonName } from '../../services/pokemon-name';
 import { Pokemon } from '../../services/pokemon/pokemon';
 import { Form } from '../form/form';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-all-cards',
@@ -20,18 +21,22 @@ export class AllCards {
   count = 0;
   search = '';
   pokemons: Pokemon[] = [];
-  isAscending = false;
+  isAscending = true;
 
   showAddModal = false;
 
+  private router = inject(Router);
+
   onCreated(p: Pokemon) {
-   const created = this.pokemonName.add(p);
-   if (created) this.pokemons.unshift(created);
+    const created = this.pokemonName.add(p);
+    if (created) this.pokemons.unshift(created);
     this.showAddModal = false;
+    document.body.style.overflow = 'auto';
   }
 
   openAddModal() {
     this.showAddModal = true;
+    document.body.style.overflow = 'hidden';
   }
 
   constructor(private pokemonName: PokemonName) {
@@ -56,6 +61,9 @@ export class AllCards {
     this.pokemons.sort((a, b) => this.isAscending ? a.id - b.id : b.id - a.id);
   }
 
+  navigate(pokemon: Pokemon) {
+    this.router.navigate(['/pokemon', pokemon.id]);
+  }
 
 
 }
