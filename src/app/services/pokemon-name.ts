@@ -1,19 +1,27 @@
 import { Injectable } from '@angular/core';
-import { pokemons as Pokemons } from './pokemon/pokemon';
+import { DEFAULT_POKEMONS, loadPokemonsFromJson, Pokemon } from './pokemon/pokemon';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PokemonName {
 
-  pokemons = Pokemons;
+  
+  pokemons: Pokemon[] = DEFAULT_POKEMONS;
 
+  constructor() {   
+    this.init();
+  }
 
-  constructor() {
-    if (typeof window !== 'undefined' && typeof localStorage !== 'undefined') {
-      this.load();
-           
+  private async init() {
+    this.load();
 
+    if (!this.pokemons || this.pokemons.length === 0) {
+      const list = await loadPokemonsFromJson();
+      if (list && list.length) {
+        this.pokemons = list;
+        this.save(); 
+      }
     }
   }
 
