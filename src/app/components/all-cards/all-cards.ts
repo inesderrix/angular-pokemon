@@ -44,21 +44,6 @@ export class AllCards {
     const maxId = this.pokemons.length ? Math.max(...this.pokemons.map(p => p.id || 0)) : 0;
     const newId = maxId + 1;
 
-    const generPokemon: Pokemon = {
-      id: newId,
-      name: 'Pikachu',
-      hp: 50,
-      figureCaption: `N°${newId.toString().padStart(3, '0')}`,
-      attackName: '',
-      attackStrength: 0,
-      attackDescription: '',
-      attackName2: '',
-      attackStrength2: 0,
-      attackDescription2: '',
-      energyType: 'normal',
-      img: 'Pikachu.jpg'
-    };
-    this.pokemonName.add(generPokemon);
     this.pokemons = this.pokemonName.getAll();
   }
 

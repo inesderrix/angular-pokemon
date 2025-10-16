@@ -16,6 +16,7 @@ export class Form {
   @Output() cancel = new EventEmitter<void>();
 
   model: Partial<Pokemon> = {
+    id:0,
     name: '',
     hp: 0,
     attackName: '',
@@ -25,8 +26,7 @@ export class Form {
     attackStrength2: 0,
     attackDescription2: '',
     energyType: 'normal',
-    img: ''
-  };
+    };
 
   
 energyTypes = [
@@ -50,7 +50,14 @@ energyTypes = [
     if (!formValid || !this.model.name) return;
     const list = this.pokemonService.getAll();
     const maxId = list.length ? Math.max(...list.map(p => p.id || 0)) : 0;
-    const newId = maxId + 1;
+    let createId = (this.model.id && this.model.id > 0) ? this.model.id : (maxId + 1);
+    if (list.some(p => p.id === createId)) {
+      createId = maxId + 1;
+    }
+    const newId = createId;
+
+    
+    console.log(this.model.id)
 
     const newPokemon: Pokemon = {
       id: newId,
@@ -64,7 +71,8 @@ energyTypes = [
       attackStrength2: this.model.attackStrength2 ?? 0,
       attackDescription2: this.model.attackDescription2 || '',
       energyType: this.model.energyType || 'fire',
-      img: this.model.img || 'Pikachu.jpg'
+       img: `https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/${newId.toString().padStart(3, '0')}.png`
+  
     };
     this.create.emit(newPokemon);
     this.reset();
@@ -77,6 +85,7 @@ energyTypes = [
 
   reset() {
     this.model = {
+      id:0,
       name: '',
       hp: 50,
       attackName: '',
@@ -85,8 +94,7 @@ energyTypes = [
       attackName2: '',
       attackStrength2: 0,
       attackDescription2: '',
-      energyType: 'normal',
-      img: ''
+      energyType: 'normal'
     };
   }
 

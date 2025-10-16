@@ -10,6 +10,10 @@
                 <input name="hp" type="number" required [(ngModel)]="model.hp" />
             </label>
 
+             <label>Numéro du Pokémon
+                <input name="id" type="number" required [(ngModel)]="model.id" />
+            </label>
+
             <label>Type d'énergie *
 <br>
                 <select name="energyType" required [(ngModel)]="model.energyType">
@@ -20,9 +24,7 @@
                 </select>
             </label>
 
-            <label>Image
-                <input name="img" [(ngModel)]="model.img" placeholder="URL" />
-            </label>
+            
 
             <label>Attaque 1
                 <input name="attackName" [(ngModel)]="model.attackName" />

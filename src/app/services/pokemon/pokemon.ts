@@ -27,7 +27,7 @@ export const pokemons: Pokemon[] = [
     attackStrength2: 20,
     attackDescription2: '',
     energyType: 'water',
-    img: 'pokemon/Carapuce.jpg'
+    img: 'https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/007.png'
   },
   {
     id: 1,
@@ -41,7 +41,7 @@ export const pokemons: Pokemon[] = [
     attackStrength2: 30,
     attackDescription2: 'Attaque avec des feuilles tranchantes.',
     energyType: 'plante',
-    img: 'pokemon/Bulbizarre.jpg'
+    img: 'https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/001.png'
   },
   {
     id: 4,
