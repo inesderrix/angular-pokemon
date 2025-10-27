@@ -1,4 +1,26 @@
+.nav{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    background-color: rgb(253, 237, 237);
+    margin: 0;
+    padding: 12px;
+}
+
+.up{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+}
+
 .card-container{
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -14,10 +36,10 @@
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
-    margin-bottom: 20px;
 }
 .sort-btn:hover {
     background-color: black;
     color: white;
     border: 1px solid black;
 }
+
