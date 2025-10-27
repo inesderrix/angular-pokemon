@@ -1,0 +1,33 @@
+<h1>Liste des pokemon</h1>
+<div>
+
+    <table>
+        <caption>Liste des Pokemon sous forme d'un tableau</caption>
+        <thead>
+            <tr>
+                <th>Numéro</th>
+                <th>Nom</th>
+                <th>Photo</th>
+                <th>Pv</th>
+                <th>Énergie</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let p of pokemons">
+            <tr class=" {{p.energyType}}">
+                <td> {{p.figureCaption}} </td>
+                <td>{{p.name}}</td>
+                <td><img src="https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/{{p.id.toString().padStart(3, '0')}}.png" alt="" style="width: 48px;"></td>
+                <td> {{p.hp}}</td>
+                <td>
+                    <div class="energie {{p.energyType}}">
+
+                        <img src="energy/{{p.energyType}}.png" alt="" style="width:24px ; height: 24px;">
+                        <p class="energie-name">{{p.energyType}}</p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</div>
