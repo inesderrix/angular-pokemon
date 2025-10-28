@@ -3,6 +3,7 @@ export interface Attack{
   strength:number;
   description:string;
   energyCount:number;
+  energySecond:number;
 }
 export interface Pokemon {
   id: number;
@@ -11,6 +12,7 @@ export interface Pokemon {
   figureCaption: string;
   attacks: Attack[];
   energyType: string;
+  energySecond:string;
   img: string;
   milieu:string;
 }

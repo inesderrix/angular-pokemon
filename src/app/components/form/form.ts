@@ -20,13 +20,13 @@ export class Form {
     name: '',
     hp: 0,
     attacks: [
-      { name: '', strength: 0, description: '', energyCount: 1 }
+      { name: '', strength: 0, description: '', energyCount: 1, energySecond: 1 }
     ],
     energyType: 'normal',
   };
 
   addAttack() {
-    this.model.attacks?.push({ name: '', strength: 0, description: '', energyCount: 1 });
+    this.model.attacks?.push({ name: '', strength: 0, description: '', energyCount: 1, energySecond: 1 });
   }
 
   energyTypes = [
@@ -63,8 +63,8 @@ export class Form {
       name: '',
       hp: 50,
       attacks: [
-        { name: '', strength: 0, description: '', energyCount: 0 },
-        { name: '', strength: 0, description: '', energyCount: 0 }
+        { name: '', strength: 0, description: '', energyCount: 0, energySecond: 0 },
+        { name: '', strength: 0, description: '', energyCount: 0, energySecond: 0 }
       ],
       energyType: 'normal'
     };

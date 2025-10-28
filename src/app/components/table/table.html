@@ -13,6 +13,7 @@
                 <th>Photo</th>
                 <th>Pv</th>
                 <th>Énergie</th>
+                <th>Énergie secondaire</th>
             </tr>
         </thead>
         <tbody *ngFor="let p of pokemons | filterItems:search">
@@ -27,6 +28,13 @@
 
                         <img src="energy/{{p.energyType}}.png" alt="" style="width:24px ; height: 24px;">
                         <p class="energie-name">{{p.energyType}}</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="energie {{p.energySecond}}">
+
+                        <img src="energy/{{p.energySecond}}.png" alt="" style="width:24px ; height: 24px;">
+                        <p class="energie-name">{{p.energySecond}}</p>
                     </div>
                 </td>
             </tr>

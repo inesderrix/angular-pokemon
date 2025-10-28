@@ -1,48 +1,49 @@
 <div id="card" class="card">
-        <div class="card-inner">
-            <div class="card-face front">
-    <div id="inside" class="{{pokemon.energyType}}">
+    <div class="card-inner">
+        <div class="card-face front">
+            <div id="inside" class="{{pokemon.energyType}}">
 
-        <header>
-            <div class="left">
-                <div id="name">
-                    {{pokemon.name}}
+                <header>
+                    <div class="left">
+                        <div id="name">
+                            {{pokemon.name}}
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div id="hp">
+                            {{pokemon.hp}} PV
+                        </div>
+                        <img src="energy/{{pokemon.energyType}}.png" alt="energie eau" class="energy icon">
+
+                    </div>
+                </header>
+                <figure id="art">
+                    <img src="pokemon/{{pokemon.milieu}}.jpg" alt="" class="paysage">
+                    <img src="{{pokemon.img}}" alt="" class="pokemon">
+                    <figcaption>{{pokemon.figureCaption}} - {{pokemon.name}} </figcaption>
+                </figure>
+                <div *ngFor="let attack of pokemon.attacks ?? []" class="capacity">
+                    <div class="main">
+                        <div class="cost">
+                            <img *ngFor="let energyType of getEnergyIcons(attack)"
+                                [src]="'energy/' + energyType + '.png'" class="energy icon" alt="{{energyType}}">
+
+                        </div>
+
+                        <div class="name">{{attack.name}}</div>
+                        <div class="domage">{{attack.strength}}</div>
+                    </div>
+                    <div class="description">
+                        {{attack.description}}
+                    </div>
                 </div>
-            </div>
-            <div class="right">
-                <div id="hp">
-                    {{pokemon.hp}} PV
-                </div>
-                <img src="energy/{{pokemon.energyType}}.png" alt="energie eau" class="energy icon">
-                
-            </div>
-        </header>
-        <figure id="art">
-            <img src="pokemon/{{pokemon.milieu}}.jpg" alt="" class="paysage">
-            <img src="{{pokemon.img}}" alt="" class="pokemon">
-            <figcaption>{{pokemon.figureCaption}} - {{pokemon.name}} </figcaption>
-        </figure>
-        <div *ngFor="let attack of pokemon.attacks ?? []" class="capacity">
-            <div class="main">
-                <div class="cost">
-                    <img *ngFor="let e of [].constructor(attack.energyCount)" src="energy/{{pokemon.energyType}}.png"
-                    class="energy icon">
-                </div>
-                
-                <div class="name">{{attack.name}}</div>
-                <div class="domage">{{attack.strength}}</div>
-            </div>
-            <div class="description">
-                {{attack.description}}
+
             </div>
         </div>
-        
-    </div>
-</div>
 
-    <div class="card-face back ">
+        <div class="card-face back ">
 
-        <img src="pokemon/back-card.webp" alt="" style="width:100%; height:100%; object-fit:cover;">
+            <img src="pokemon/back-card.webp" alt="" style="width:100%; height:100%; object-fit:cover;">
+        </div>
     </div>
-</div>
 </div>
