@@ -4,6 +4,7 @@ table {
   font-family: sans-serif;
   font-size: 0.8rem;
   letter-spacing: 1px;
+  width: 50%;
 }
 
 caption {
@@ -12,8 +13,7 @@ caption {
   font-weight: bold;
 }
 
-thead,
-tfoot {
+thead {
   background-color: rgb(228 240 245);
 }
 
@@ -23,74 +23,68 @@ td {
   padding: 8px 10px;
 }
 
-td:last-of-type {
-  text-align: center;
+
+.energie {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  gap: 4px;
 }
 
-tbody > tr:nth-of-type(even) {
-  background-color: rgb(237 238 242);
+.btn {
+  border: 1px solid black;
+  background-color: #ffffff05;
+  border-radius: 20px;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
-
-tfoot th {
-  text-align: right;
-}
-
-tfoot td {
-  font-weight: bold;
-}
-
-.energie{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-radius: 24px;
-    gap: 4px;
-}
-
-
 
 .water {
-    background-color: #72afff88;
+  background-color: #72afff50;
 }
 
 .electricite {
-    background-color: #ffeb6688;
+  background-color: #ffeb6650;
 }
 
 .fire {
-    background-color: #ff9c5488;
+  background-color: #ff9c5450;
 }
 
 .plante {
-    background-color: #8cd67488;
+  background-color: #8cd67450;
 }
 
 .fee {
-    background-color: #ff71ec88;
+  background-color: #ff71ec50;
 }
 
 .psy {
-    background-color: #ab62ff88;
+  background-color: #ab62ff50;
 }
 
 .normal {
-    background-color: #e9e9e988;
+  background-color: #e9e9e950;
 }
 
 .dragon {
-    background-color: #ddae1288;
+  background-color: #ddae1250;
 }
 
 .combat {
-    background-color: #d1650088;
+  background-color: #d1650050;
 }
 
 .metal {
-    background-color: #cccccc88;
+  background-color: #cccccc50;
 }
 
 .obscure {
-    background-color: #00000088;
-    color: white;
+  background-color: #00000050;
+  color: white;
 }

@@ -12,6 +12,7 @@ export interface Pokemon {
   attacks: Attack[];
   energyType: string;
   img: string;
+  milieu:string;
 }
 
 

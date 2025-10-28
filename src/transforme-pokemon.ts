@@ -21,6 +21,7 @@ interface PokemonOriginal {
   attacks?: Attack[];
   energyType: string;
   img: string;
+  milieu:string;
 }
 
 interface PokemonTransformed extends Omit<PokemonOriginal, 'attackName' | 'attackStrength' | 'attackDescription' | 'attackName2' | 'attackStrength2' | 'attackDescription2' | 'attacks'> {

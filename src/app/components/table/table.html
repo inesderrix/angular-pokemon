@@ -1,4 +1,7 @@
 <h1>Liste des pokemon</h1>
+<app-search-bar class="search" [(search)]="search"></app-search-bar>
+
+<button (click)="back()" class="btn">Retour</button>
 <div>
 
     <table>
@@ -12,11 +15,12 @@
                 <th>Énergie</th>
             </tr>
         </thead>
-        <tbody *ngFor="let p of pokemons">
+        <tbody *ngFor="let p of pokemons | filterItems:search">
             <tr class=" {{p.energyType}}">
                 <td> {{p.figureCaption}} </td>
                 <td>{{p.name}}</td>
-                <td><img src="https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/{{p.id.toString().padStart(3, '0')}}.png" alt="" style="width: 48px;"></td>
+                <td><img src="https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/{{p.id.toString().padStart(3, '0')}}.png"
+                        alt="" style="width: 48px;"></td>
                 <td> {{p.hp}}</td>
                 <td>
                     <div class="energie {{p.energyType}}">

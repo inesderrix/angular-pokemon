@@ -2,7 +2,7 @@ import { Component, inject } from '@angular/core';
 import { PlayingCard } from '../playing-card/playing-card';
 import { SearchBar } from '../search-bar/search-bar';
 import { CommonModule } from '@angular/common';
-import { FilterItemsPipe } from './pipe';
+import { FilterItemsPipe } from '../pipe';
 import { PokemonName } from '../../services/pokemon-name';
 import { Pokemon } from '../../services/pokemon/pokemon';
 import { Form } from '../form/form';
@@ -63,6 +63,10 @@ export class AllCards {
 
   navigate(pokemon: Pokemon) {
     this.router.navigate(['/pokemon', pokemon.id]);
+  }
+
+  navigateTable(){
+    this.router.navigate(['/table'])
   }
 
 
