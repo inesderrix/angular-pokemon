@@ -8,7 +8,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/001.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Flammèche",
@@ -34,7 +34,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/002.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Tranch'Herbe",
@@ -60,7 +60,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/003.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Lance-Soleil",
@@ -86,7 +86,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/004.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Griffe",
@@ -112,7 +112,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/005.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Flammèche",
@@ -138,7 +138,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/006.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Lance-Flammes",
@@ -164,7 +164,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/007.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Pistolet à O",
@@ -190,7 +190,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/008.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -216,7 +216,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/009.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Hydroblast",
@@ -242,7 +242,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/010.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Charge",
@@ -268,7 +268,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/011.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Armure",
@@ -294,7 +294,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/012.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Poudre Dodo",
@@ -320,7 +320,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/013.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Dard Venin",
@@ -346,7 +346,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/014.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Enroulement",
@@ -372,7 +372,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/015.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Piqûre",
@@ -398,7 +398,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/016.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Picpic",
@@ -424,7 +424,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/017.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Aile d'Acier",
@@ -450,7 +450,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/018.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Cru-Aile",
@@ -476,7 +476,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/019.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -502,7 +502,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/020.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -528,7 +528,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/021.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Picpic",
@@ -554,7 +554,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/022.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Multivrille",
@@ -580,7 +580,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/023.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -606,7 +606,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/024.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Étreinte",
@@ -632,7 +632,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/025.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Éclair",
@@ -658,7 +658,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/026.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Tonnerre",
@@ -684,7 +684,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/027.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Griffe",
@@ -710,7 +710,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/028.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Tunnel",
@@ -736,7 +736,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/029.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Charge",
@@ -762,7 +762,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/030.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -788,7 +788,7 @@
             "energyType": "psy",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/031.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Séisme",
@@ -814,7 +814,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/032.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Piqûre",
@@ -840,7 +840,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/033.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -866,7 +866,7 @@
             "energyType": "psy",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/034.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Coup de Corne",
@@ -892,7 +892,7 @@
             "energyType": "fee",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/035.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Pouvoir Lunaire",
@@ -918,7 +918,7 @@
             "energyType": "fee",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/036.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Vibra Soin",
@@ -944,7 +944,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/037.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Flamme",
@@ -970,7 +970,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/038.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Feu d'Enfer",
@@ -996,7 +996,7 @@
             "energyType": "fee",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/039.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Berceuse",
@@ -1022,7 +1022,7 @@
             "energyType": "fee",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/040.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Onde Folie",
@@ -1048,7 +1048,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/041.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -1074,7 +1074,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/042.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Draco Vent",
@@ -1100,7 +1100,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/043.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Vampigraine",
@@ -1126,7 +1126,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/044.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Tranch'Herbe",
@@ -1152,7 +1152,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/045.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Pollen",
@@ -1178,7 +1178,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/046.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Griffe",
@@ -1204,7 +1204,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/047.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -1230,7 +1230,7 @@
             "energyType": "plante",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/048.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Piqûre",
@@ -1256,7 +1256,7 @@
             "energyType": "plante",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/049.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Vent Violent",
@@ -1282,7 +1282,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/050.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Fouille",
@@ -1308,7 +1308,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/051.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Séisme",
@@ -1334,7 +1334,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/052.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Griffe",
@@ -1360,7 +1360,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/053.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Tranche",
@@ -1386,7 +1386,7 @@
             "energyType": "water",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/054.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Griffe",
@@ -1412,7 +1412,7 @@
             "energyType": "water",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/055.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Psyko",
@@ -1438,7 +1438,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/056.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Poing Karaté",
@@ -1464,7 +1464,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/057.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Poing de Rage",
@@ -1490,7 +1490,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/058.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -1516,7 +1516,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/059.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Lance-Flammes",
@@ -1542,7 +1542,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/060.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Éclaboussure",
@@ -1568,7 +1568,7 @@
             "energyType": "water",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/061.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Bulles d'O",
@@ -1594,7 +1594,7 @@
             "energyType": "water",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/062.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -1620,7 +1620,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/063.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Téléport",
@@ -1646,7 +1646,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/064.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Psyko",
@@ -1672,7 +1672,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/065.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Psyko",
@@ -1698,7 +1698,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/066.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Poing Karaté",
@@ -1724,7 +1724,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/067.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Coup-Croix",
@@ -1750,7 +1750,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/068.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Dynamopoing",
@@ -1776,7 +1776,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/069.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Fouet Lianes",
@@ -1802,7 +1802,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/070.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Tranch'Herbe",
@@ -1828,7 +1828,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/071.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Dansefeuille",
@@ -1854,7 +1854,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/072.png",
-             "milieu":"mer",
+             "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Dard Venin",
@@ -1880,7 +1880,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/073.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -1906,7 +1906,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/074.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Jet-Pierres",
@@ -1932,7 +1932,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/075.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Jet-Pierres",
@@ -1958,7 +1958,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/076.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Séisme",
@@ -1984,7 +1984,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/077.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Flammèche",
@@ -2010,7 +2010,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/078.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Lance-Flammes",
@@ -2036,7 +2036,7 @@
             "energyType": "water",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/079.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Choc Mental",
@@ -2062,7 +2062,7 @@
             "energyType": "water",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/080.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Psyko",
@@ -2088,7 +2088,7 @@
             "energyType": "electricite",
             "energySecond":"metal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/081.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Éclair",
@@ -2114,7 +2114,7 @@
             "energyType": "electricite",
             "energySecond":"metal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/082.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Tonnerre",
@@ -2140,7 +2140,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/083.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Coup de Poireau",
@@ -2166,7 +2166,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/084.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Picpic",
@@ -2192,7 +2192,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/085.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Bec Vrille",
@@ -2218,7 +2218,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/086.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -2244,7 +2244,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/087.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Laser Glace",
@@ -2270,7 +2270,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/088.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Toxik",
@@ -2296,7 +2296,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/089.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Bomb-Beurk",
@@ -2322,7 +2322,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/090.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Claquoir",
@@ -2348,7 +2348,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/091.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -2374,7 +2374,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/092.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Léchouille",
@@ -2400,7 +2400,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/093.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Ball'Ombre",
@@ -2426,7 +2426,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/094.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Ball'Ombre",
@@ -2452,7 +2452,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/095.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Éboulement",
@@ -2478,7 +2478,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/096.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Hypnose",
@@ -2504,7 +2504,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/097.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Psyko",
@@ -2530,7 +2530,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/098.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Pince-Masse",
@@ -2556,7 +2556,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/099.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Pince-Masse",
@@ -2582,7 +2582,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/100.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Étincelle",
@@ -2608,7 +2608,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/101.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Tonnerre",
@@ -2634,7 +2634,7 @@
             "energyType": "plante",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/102.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Canon Graine",
@@ -2660,7 +2660,7 @@
             "energyType": "plante",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/103.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Psyko",
@@ -2686,7 +2686,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/104.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Massd'Os",
@@ -2712,7 +2712,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/105.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Massd'Os",
@@ -2738,7 +2738,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/106.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Pied Voltige",
@@ -2764,7 +2764,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/107.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Poing de Feu",
@@ -2790,7 +2790,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/108.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Coup de Langue",
@@ -2816,7 +2816,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/109.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Toxik",
@@ -2842,7 +2842,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/110.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Détritus",
@@ -2868,7 +2868,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/111.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Corne Furie",
@@ -2894,7 +2894,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/112.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Empal'Korne",
@@ -2920,7 +2920,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/113.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "E-Coque",
@@ -2946,7 +2946,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/114.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Fouet Lianes",
@@ -2972,7 +2972,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/115.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Poing Comète",
@@ -2998,7 +2998,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/116.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Pistolet à O",
@@ -3017,7 +3017,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/117.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -3036,7 +3036,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/118.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Picpic",
@@ -3055,7 +3055,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/119.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Cascade",
@@ -3081,7 +3081,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/120.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Eclat Magique",
@@ -3100,7 +3100,7 @@
             "energyType": "water",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/121.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Psyko",
@@ -3126,7 +3126,7 @@
             "energyType": "fee",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/122.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Choc Mental",
@@ -3152,7 +3152,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/123.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Taillade",
@@ -3171,7 +3171,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/124.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Grobisou",
@@ -3197,7 +3197,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/125.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Poing-Éclair",
@@ -3223,7 +3223,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/126.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Poing de Feu",
@@ -3249,7 +3249,7 @@
             "energyType": "plante",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/127.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Guillotine",
@@ -3268,7 +3268,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/128.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Bélier",
@@ -3294,7 +3294,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/129.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Trempette",
@@ -3313,7 +3313,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/130.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -3339,7 +3339,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/131.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Surf",
@@ -3365,7 +3365,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/132.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Morphing",
@@ -3384,7 +3384,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/133.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Vive-Attaque",
@@ -3410,7 +3410,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/134.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Bulles d'O",
@@ -3429,7 +3429,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/135.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Éclair",
@@ -3455,7 +3455,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/136.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Lance-Flammes",
@@ -3474,7 +3474,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/137.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Psyko",
@@ -3493,7 +3493,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/138.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Pistolet à O",
@@ -3512,7 +3512,7 @@
             "energyType": "water",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/139.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -3538,7 +3538,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/140.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Griffe",
@@ -3557,7 +3557,7 @@
             "energyType": "water",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/141.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Taillade",
@@ -3576,7 +3576,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/142.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Cru-Aile",
@@ -3602,7 +3602,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/143.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Plaquage",
@@ -3628,7 +3628,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/144.png",
-             "milieu":"montagne",
+             "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Blizzard",
@@ -3654,7 +3654,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/145.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Fatal-Foudre",
@@ -3680,7 +3680,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/146.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Déflagration",
@@ -3699,7 +3699,7 @@
             "energyType": "dragon",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/147.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Draco-Rage",
@@ -3718,7 +3718,7 @@
             "energyType": "dragon",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/148.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Dracochoc",
@@ -3737,7 +3737,7 @@
             "energyType": "dragon",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/149.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Draco-Griffe",
@@ -3763,7 +3763,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/150.png",
-             "milieu":"champs",
+             "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Psyko",
@@ -3789,7 +3789,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/151.png",
-             "milieu":"champs",
+             "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Métronome",
@@ -3808,7 +3808,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/152.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Fouet Lianes",
@@ -3827,7 +3827,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/153.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Tranch'Herbe",
@@ -3846,7 +3846,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/154.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Lance-Soleil",
@@ -3872,7 +3872,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/155.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Flammèche",
@@ -3891,7 +3891,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/156.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Roue de Feu",
@@ -3910,7 +3910,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/157.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Déflagration",
@@ -3936,7 +3936,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/158.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Pistolet à O",
@@ -3955,7 +3955,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/159.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -3974,7 +3974,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/160.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -4000,7 +4000,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/161.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Vive-Attaque",
@@ -4019,7 +4019,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/162.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Croc de Mort",
@@ -4045,7 +4045,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/163.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Picpic",
@@ -4064,7 +4064,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/164.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Choc Psy",
@@ -4083,7 +4083,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/165.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Charge",
@@ -4102,7 +4102,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/166.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Poing Comète",
@@ -4121,7 +4121,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/167.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Piqûre",
@@ -4140,7 +4140,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/168.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Vampirisme",
@@ -4166,7 +4166,7 @@
             "energyType": "obscure",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/169.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Crochet Venin",
@@ -4185,7 +4185,7 @@
             "energyType": "water",
             "energySecond":"eletricite", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/170.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Étincelle",
@@ -4204,7 +4204,7 @@
             "energyType": "water",
             "energySecond":"eletricite", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/171.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Cage-Éclair",
@@ -4230,7 +4230,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/172.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Étincelle",
@@ -4249,7 +4249,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/173.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Berceuse",
@@ -4268,7 +4268,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/174.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Écras'Face",
@@ -4287,7 +4287,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/175.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Météores",
@@ -4306,7 +4306,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/176.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Éclat Magique",
@@ -4325,7 +4325,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/177.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Picpic",
@@ -4344,7 +4344,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/178.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Choc Psy",
@@ -4370,7 +4370,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/179.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Éclair",
@@ -4389,7 +4389,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/180.png",          
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Cage-Éclair",
@@ -4408,7 +4408,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/181.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Fatal-Foudre",
@@ -4434,7 +4434,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/182.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Lance-Soleil",
@@ -4453,7 +4453,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/183.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Bulles d'O",
@@ -4472,7 +4472,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/184.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -4498,7 +4498,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/185.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Bélier",
@@ -4517,7 +4517,7 @@
             "energyType": "water",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/186.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -4543,7 +4543,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/187.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Absorbe",
@@ -4562,7 +4562,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/188.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Méga-Sangsue",
@@ -4581,7 +4581,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/189.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Vampigraine",
@@ -4600,7 +4600,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/190.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Griffe",
@@ -4619,7 +4619,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/191.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Absorbe",
@@ -4638,7 +4638,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/192.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Lance-Soleil",
@@ -4664,7 +4664,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/193.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Dard-Venin",
@@ -4683,7 +4683,7 @@
             "energyType": "water",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/194.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Pistolet à O",
@@ -4702,7 +4702,7 @@
             "energyType": "water",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/195.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Séisme",
@@ -4728,7 +4728,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/196.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Psyko",
@@ -4747,7 +4747,7 @@
             "energyType": "obscure",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/197.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -4773,7 +4773,7 @@
             "energyType": "obscure",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/198.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Picpic",
@@ -4792,7 +4792,7 @@
             "energyType": "water",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/199.png",
-             "milieu":"maree",
+             "milieu":"pokemon/maree.jpg",
             "attacks": [
                 {
                     "name": "Psyko",
@@ -4818,7 +4818,7 @@
             "energyType": "obscure",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/200.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Ball'Ombre",
@@ -4837,7 +4837,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/201.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Puissance Cachée",
@@ -4856,7 +4856,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/202.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Voile Miroir",
@@ -4875,7 +4875,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/203.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Psyko",
@@ -4901,7 +4901,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/204.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Charge",
@@ -4920,7 +4920,7 @@
             "energyType":"metal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/205.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Destruction",
@@ -4946,7 +4946,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/206.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Bélier",
@@ -4965,7 +4965,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/207.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Dard-Venin",
@@ -4984,7 +4984,7 @@
             "energyType":"metal",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/208.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Tête de Fer",
@@ -5010,7 +5010,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/209.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -5029,7 +5029,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/210.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Crocs Éclair",
@@ -5048,7 +5048,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/211.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Dard-Venin",
@@ -5067,7 +5067,7 @@
             "energyType":"metal",
             "energySecond":"plante", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/212.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Pisto-Poing",
@@ -5093,7 +5093,7 @@
             "energyType": "plante",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/213.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Constriction",
@@ -5112,7 +5112,7 @@
             "energyType": "plante",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/214.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Mégacorne",
@@ -5138,7 +5138,7 @@
             "energyType": "obscure",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/215.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Griffe Acier",
@@ -5157,7 +5157,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/216.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Griffe",
@@ -5176,7 +5176,7 @@
             "energyType": "normal",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/217.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Tranche",
@@ -5202,7 +5202,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/218.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Flammèche",
@@ -5221,7 +5221,7 @@
             "energyType": "fire",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/219.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Lance-Flammes",
@@ -5247,7 +5247,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/220.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Poudreuse",
@@ -5266,7 +5266,7 @@
             "energyType": "water",
             "energySecond":"combat", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/221.png",
-            "milieu":"grotte",
+            "milieu":"pokemon/grotte.jpg",
             "attacks": [
                 {
                     "name": "Laser Glace",
@@ -5292,7 +5292,7 @@
             "energyType": "water",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/222.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Bulles d'O",
@@ -5311,7 +5311,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/223.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Pistolet à O",
@@ -5330,7 +5330,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/224.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Octazooka",
@@ -5356,7 +5356,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/225.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Cadeau",
@@ -5375,7 +5375,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/226.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Bulles d'O",
@@ -5394,7 +5394,7 @@
             "energyType":"metal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/227.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Cru-Aile",
@@ -5420,7 +5420,7 @@
             "energyType": "obscure",
             "energySecond":"fire", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/228.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -5439,7 +5439,7 @@
             "energyType": "obscure",
             "energySecond":"fire", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/229.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Lance-Flammes",
@@ -5465,7 +5465,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/230.png",
-            "milieu":"mer",
+            "milieu":"pokemon/mer.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -5491,7 +5491,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/231.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Charge",
@@ -5510,7 +5510,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/232.png",
-            "milieu":"hostile",
+            "milieu":"pokemon/hostile.jpg",
             "attacks": [
                 {
                     "name": "Séisme",
@@ -5536,7 +5536,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/233.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Triplattaque",
@@ -5555,7 +5555,7 @@
             "energyType": "normal",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/234.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Bélier",
@@ -5574,7 +5574,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/235.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Gribouille",
@@ -5593,7 +5593,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/236.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Poing Comète",
@@ -5612,7 +5612,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/237.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Triple Pied",
@@ -5631,7 +5631,7 @@
             "energyType": "psy",
             "energySecond":"water", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/238.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Grobisou",
@@ -5650,7 +5650,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/239.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Poing-Éclair",
@@ -5669,7 +5669,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/240.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Flammèche",
@@ -5688,7 +5688,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/241.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Plaquage",
@@ -5714,7 +5714,7 @@
             "energyType": "normal",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/242.png",
-            "milieu":"urbain",
+            "milieu":"pokemon/urbain.jpg",
             "attacks": [
                 {
                     "name": "Écras'Face",
@@ -5733,7 +5733,7 @@
             "energyType": "electricite",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/243.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Fatal-Foudre",
@@ -5759,7 +5759,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/244.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Feu Sacré",
@@ -5785,7 +5785,7 @@
             "energyType": "water",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/245.png",
-            "milieu":"champs",
+            "milieu":"pokemon/champs.jpg",
             "attacks": [
                 {
                     "name": "Hydrocanon",
@@ -5811,7 +5811,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/246.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Morsure",
@@ -5830,7 +5830,7 @@
             "energyType": "combat",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/247.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Éboulement",
@@ -5849,7 +5849,7 @@
             "energyType": "combat",
             "energySecond":"obscure", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/248.png",
-            "milieu":"montagne",
+            "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Séisme",
@@ -5875,7 +5875,7 @@
             "energyType": "psy",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/249.png",
-             "milieu":"montagne",
+             "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Aéroblast",
@@ -5901,7 +5901,7 @@
             "energyType": "fire",
             "energySecond":"normal", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/250.png",
-             "milieu":"montagne",
+             "milieu":"pokemon/montagne.jpg",
             "attacks": [
                 {
                     "name": "Feu Sacré",
@@ -5927,7 +5927,7 @@
             "energyType": "plante",
             "energySecond":"psy", 
             "img": "https://raw.githubusercontent.com/HybridShivam/Pokemon/refs/heads/master/assets/images/251.png",
-            "milieu":"foret",
+            "milieu":"pokemon/foret.jpg",
             "attacks": [
                 {
                     "name": "Psyko",

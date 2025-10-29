@@ -17,15 +17,20 @@ filterItems:search)?.length }}
 
 
 <div class="card-container" href="#">
+    @if(isLoading){
+        <p>Chargement ...</p>
+    }@else {
 
-     @if((pokemons | filterItems:search).length==0) {
-        <p>Aucun Pokémon trouvé</p>
-     }
-     @else {
-
-         <app-playing-card *ngFor="let p of pokemons | filterItems:search" [pokemon]="p" (click)="navigate(p)"></app-playing-card>
-     }
-
+        
+        @if((pokemons | filterItems:search).length==0) {
+            <p>Aucun Pokémon trouvé</p>
+        }
+        @else {
+            
+            <app-playing-card *ngFor="let p of pokemons | filterItems:search" [pokemon]="p" (click)="navigate(p)"></app-playing-card>
+        }
+        
+    }
 
 </div>
 <a href="#" class="up">en haut</a>

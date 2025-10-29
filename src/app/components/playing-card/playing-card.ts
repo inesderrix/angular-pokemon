@@ -32,7 +32,7 @@ export class PlayingCard {
       icons.push(this.pokemon.energySecond);
     }
   }
-  console.log(icons)
+
   return icons;
 }
 

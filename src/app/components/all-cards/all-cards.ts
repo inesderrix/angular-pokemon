@@ -22,10 +22,23 @@ export class AllCards {
   search = '';
   pokemons: Pokemon[] = [];
   isAscending = true;
+  isLoading = true;
 
   showAddModal = false;
 
   private router = inject(Router);
+
+  constructor(private pokemonName: PokemonName) {
+    this.loadPokemons();
+  }
+
+  async loadPokemons() {
+    this.isLoading = true;
+
+    await new Promise(resolve => setTimeout(resolve));
+    this.pokemons = this.pokemonName.getAll();
+    this.isLoading = false;
+  }
 
   onCreated(p: Pokemon) {
     const created = this.pokemonName.add(p);
@@ -39,9 +52,6 @@ export class AllCards {
     document.body.style.overflow = 'hidden';
   }
 
-  constructor(private pokemonName: PokemonName) {
-    this.pokemons = this.pokemonName.getAll();
-  }
 
 
   addPokemon() {
@@ -65,7 +75,7 @@ export class AllCards {
     this.router.navigate(['/pokemon', pokemon.id]);
   }
 
-  navigateTable(){
+  navigateTable() {
     this.router.navigate(['/table'])
   }
 

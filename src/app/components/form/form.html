@@ -10,9 +10,9 @@
                 <input name="hp" type="number" required [(ngModel)]="model.hp" />
             </label>
 
-            <label>Numéro du Pokémon
+            <!-- <label>Numéro du Pokémon
                 <input name="id" type="number" required [(ngModel)]="model.id" />
-            </label>
+            </label> -->
 
             <label>Type d'énergie *
                 <br>
@@ -24,6 +24,20 @@
                 </select>
             </label>
 
+            <label>Type d'énergie secondaire *
+                <br>
+                <select name="energySecond" required [(ngModel)]="model.energySecond">
+                    <option value="" disabled selected>Choisis un type</option>
+                    <option *ngFor="let type of energyTypes" [value]="type.value">
+                        {{ type.label }}
+                    </option>
+                </select>
+            </label>
+
+            <label>Image *
+                   <input name="img" type="text" required [(ngModel)]="model.milieu" placeholder="URL" />
+            </label>
+
 
 
 
@@ -31,6 +45,9 @@
                 <h4>Attaque {{ i + 1 }}</h4>
                 <label>Nombre d’énergies
                     <input type="number" min="1" max="3" [(ngModel)]="attack.energyCount" name="attackEnergy{{i}}">
+                </label>
+                <label>Nombre d’énergies secondaire
+                    <input type="number" min="1" max="3" [(ngModel)]="attack.energySecond" name="attackEnergySecond{{i}}">
                 </label>
 
                 <label>Nom

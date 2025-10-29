@@ -16,7 +16,8 @@
                 <th>Énergie secondaire</th>
             </tr>
         </thead>
-        <tbody *ngFor="let p of pokemons | filterItems:search">
+        @for (p of pokemons | filterItems:search; track $index) {
+        <!-- <tbody *ngFor="let p of pokemons | filterItems:search"> -->
             <tr class=" {{p.energyType}}">
                 <td> {{p.figureCaption}} </td>
                 <td>{{p.name}}</td>
@@ -38,7 +39,8 @@
                     </div>
                 </td>
             </tr>
-        </tbody>
+            }
+        <!-- </tbody> -->
     </table>
 
 

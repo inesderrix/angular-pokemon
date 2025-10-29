@@ -15,14 +15,17 @@ export class Form {
   @Output() create = new EventEmitter<Pokemon>();
   @Output() cancel = new EventEmitter<void>();
 
+
+
   model: Partial<Pokemon> = {
-    id: 0,
     name: '',
     hp: 0,
     attacks: [
       { name: '', strength: 0, description: '', energyCount: 1, energySecond: 1 }
     ],
     energyType: 'normal',
+    energySecond: 'normal',
+    milieu: ''
   };
 
   addAttack() {
@@ -48,6 +51,7 @@ export class Form {
 
   submit(formValid: boolean) {
     if (!formValid || !this.model.name) return;
+
     this.create.emit(this.model as Pokemon);
     this.reset();
   }
@@ -59,14 +63,15 @@ export class Form {
 
   reset() {
     this.model = {
-      id: 0,
       name: '',
       hp: 50,
       attacks: [
         { name: '', strength: 0, description: '', energyCount: 0, energySecond: 0 },
         { name: '', strength: 0, description: '', energyCount: 0, energySecond: 0 }
       ],
-      energyType: 'normal'
+      energyType: 'normal',
+      energySecond: 'normal',
+      milieu: ''
     };
   }
 

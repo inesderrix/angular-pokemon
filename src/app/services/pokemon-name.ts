@@ -6,10 +6,10 @@ import { DEFAULT_POKEMONS, loadPokemonsFromJson, Pokemon } from './pokemon/pokem
 })
 export class PokemonName {
 
-  
+
   pokemons: Pokemon[] = DEFAULT_POKEMONS;
 
-  constructor() {   
+  constructor() {
     this.init();
   }
 
@@ -20,14 +20,15 @@ export class PokemonName {
       const list = await loadPokemonsFromJson();
       if (list && list.length) {
         this.pokemons = list;
-        this.save(); 
+        this.save();
       }
     }
   }
 
   private save() {
     if (typeof window === 'undefined' || typeof localStorage === 'undefined') return;
-    try { localStorage.setItem('pokemons', JSON.stringify(this.pokemons)); 
+    try {
+      localStorage.setItem('pokemons', JSON.stringify(this.pokemons));
       console.log("je suis dans le save")
       console.log(localStorage.getItem('pokemons'))
     } catch { }
@@ -46,15 +47,18 @@ export class PokemonName {
 
   getAll() {
     console.log("je suis dans le getAll")
-      this.load();
-    return this.pokemons;
+    this.load();
+    return [...this.pokemons];
   }
 
   add(pokemon: any) {
     console.log('[PokemonName] add()');
     const maxId = this.pokemons.length ? Math.max(...this.pokemons.map(p => p.id || 0)) : 0;
     const newId = pokemon.id ?? (maxId + 1);
-   const newPokemon = { ...pokemon, id: newId };
+
+    const formattedId = `N°${newId.toString().padStart(3, '0')}`;
+
+    const newPokemon = { ...pokemon, id: newId , figureCaption:formattedId};
     this.pokemons.push(newPokemon);
     this.save();
     console.log('[PokemonName] added', newPokemon);
@@ -62,9 +66,9 @@ export class PokemonName {
 
   }
 
-  getById(id:number):Pokemon | undefined{
+  getById(id: number): Pokemon | undefined {
     this.load();
-    return this.pokemons.find(p=> p.id === id)
+    return this.pokemons.find(p => p.id === id)
 
   }
 
