@@ -2,7 +2,7 @@ import { Component, inject } from '@angular/core';
 import { SearchBar } from '../search-bar/search-bar';
 import { CommonModule } from '@angular/common';
 import { Pokemon } from '../../services/pokemon/pokemon';
-import { PokemonName } from '../../services/pokemon-name';
+import { PokemonName } from '../../services/pokemon-name/pokemon-name';
 import { Router } from '@angular/router';
 import { FilterItemsPipe } from '../pipe';
 

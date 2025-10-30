@@ -15,6 +15,7 @@ export interface Pokemon {
   energySecond:string;
   img: string;
   milieu:string;
+  evolution:number[];
 }
 
 

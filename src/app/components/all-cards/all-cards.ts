@@ -3,7 +3,7 @@ import { PlayingCard } from '../playing-card/playing-card';
 import { SearchBar } from '../search-bar/search-bar';
 import { CommonModule } from '@angular/common';
 import { FilterItemsPipe } from '../pipe';
-import { PokemonName } from '../../services/pokemon-name';
+import { PokemonName } from '../../services/pokemon-name/pokemon-name';
 import { Pokemon } from '../../services/pokemon/pokemon';
 import { Form } from '../form/form';
 import { Router } from '@angular/router';

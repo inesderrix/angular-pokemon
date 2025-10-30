@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { DEFAULT_POKEMONS, loadPokemonsFromJson, Pokemon } from './pokemon/pokemon';
+import { DEFAULT_POKEMONS, loadPokemonsFromJson, Pokemon } from '../pokemon/pokemon';
 
 @Injectable({
   providedIn: 'root'

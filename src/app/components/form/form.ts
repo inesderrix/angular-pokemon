@@ -2,7 +2,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Pokemon } from '../../services/pokemon/pokemon';
-import { PokemonName } from '../../services/pokemon-name';
+import { PokemonName } from '../../services/pokemon-name/pokemon-name';
 
 
 @Component({

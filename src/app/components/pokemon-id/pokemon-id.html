@@ -1,11 +1,21 @@
 @if (pokemon()){
-    <div>
-        <button (click)="back()" class="btn">Retour</button>
-        <button (click)="next()" class="btn">Next</button>
-        <p> Pokemon numéro {{pokemon()?.id}} !</p>
-        
-        <app-playing-card [pokemon]="pokemon()!"></app-playing-card>
+<div>
+    <button (click)="back()" class="btn">Retour</button>
+    <button (click)="next()" class="btn">Next</button>
+    <app-playing-card [pokemon]="pokemon()!"></app-playing-card>
+    @if(evolutions().length>0){
+    <h2>Évolutions</h2>
+    <div class="evolutions">
+        @for (evo of evolutions(); track $index) {
+
+            <app-playing-card [pokemon]="evo" (click)="navigate(evo)"></app-playing-card>
+        } 
+
+
     </div>
+    }
+</div>
 } @else {
-    <p>New pokemon</p>
+<button (click)="back()" class="btn">Retour</button>
+<p>New pokemon</p>
 }

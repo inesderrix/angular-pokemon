@@ -3,7 +3,7 @@ import { Component, inject, OnDestroy, OnInit, signal } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { PlayingCard } from '../playing-card/playing-card';
-import { PokemonName } from '../../services/pokemon-name';
+import { PokemonName } from '../../services/pokemon-name/pokemon-name';
 import { Pokemon } from '../../services/pokemon/pokemon';
 
 
@@ -20,6 +20,7 @@ export class PokemonId implements OnInit, OnDestroy {
   private pokemonService = inject(PokemonName);
 
   pokemon = signal<Pokemon | null>(null);
+  evolutions = signal<Pokemon[]>([]);
   routeSubscription: Subscription | null = null;
 
   ngOnInit(): void {
@@ -28,10 +29,29 @@ export class PokemonId implements OnInit, OnDestroy {
       if (id) {
         const found = this.pokemonService.getById(id);
         this.pokemon.set(found ?? null);
+        console.log(this.pokemon())
+        this.loadEvolutions(found);
+        console.log(this.evolutions())
       } else {
         this.pokemon.set(null);
+        this.evolutions.set([]);
+        console.log(this.evolutions(), "deuxieme")
       }
+
     });
+  }
+
+  private loadEvolutions(pokemon?: Pokemon | null) {
+    if (!pokemon || !pokemon.evolution) {
+      this.evolutions.set([]);
+      return;
+    }
+
+    const evols = pokemon.evolution
+      .map(id => this.pokemonService.getById(id))
+      .filter((p): p is Pokemon => !!p);
+
+    this.evolutions.set(evols);
   }
 
   ngOnDestroy(): void {
@@ -48,7 +68,11 @@ export class PokemonId implements OnInit, OnDestroy {
     this.router.navigate(['/pokemon', nextPokemon.id]);
   }
 
-  back(){
+  back() {
     this.router.navigate(['']);
+  }
+
+  navigate(pokemon: Pokemon) {
+    this.router.navigate(['/pokemon', pokemon.id]);
   }
 }
