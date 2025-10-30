@@ -3489,7 +3489,7 @@
                     "strength": 45,
                     "description": "Projette des bulles.",
                     "energyCount":1,
-                    "energySecond": 2
+                    "energySecond": 1
                 }
             ]
         },
@@ -4853,15 +4853,15 @@
                     "name": "Morsure",
                     "strength": 50,
                     "description": "Morsure ténébreuse.",
-                    "energyCount":1,
-                    "energySecond": 2
+                    "energyCount":2,
+                    "energySecond": 1
                 },
                 {
                     "name": "Ball'Ombre",
                     "strength": 45,
                     "description": "Boule d'ombre.",
                     "energyCount":1,
-                    "energySecond": 2
+                    "energySecond": 1
                 }
             ]
         },
