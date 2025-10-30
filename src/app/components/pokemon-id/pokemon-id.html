@@ -1,6 +1,7 @@
 @if (pokemon()){
 <div>
     <button (click)="back()" class="btn">Retour</button>
+    <button (click)="previous()" class="btn">Previous</button>
     <button (click)="next()" class="btn">Next</button>
     <app-playing-card [pokemon]="pokemon()!"></app-playing-card>
     @if(evolutions().length>0){

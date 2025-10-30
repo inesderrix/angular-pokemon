@@ -72,6 +72,16 @@ export class PokemonId implements OnInit, OnDestroy {
     this.router.navigate(['']);
   }
 
+  previous() {
+    const current = this.pokemon();
+    if (!current) return;
+
+    const all = this.pokemonService.getAll().sort((a, b) => a.id - b.id);
+    const index = all.findIndex(p => p.id === current.id);
+    const nextPokemon = all[(index - 1 + all.length) % all.length];
+    this.router.navigate(['/pokemon', nextPokemon.id]);
+  }
+
   navigate(pokemon: Pokemon) {
     this.router.navigate(['/pokemon', pokemon.id]);
   }
